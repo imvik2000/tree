@@ -18,9 +18,9 @@ public class BinaryTree {
 			return;
 		}
 
-		inOrder(root.left);
-		System.out.print(root.data + " ");
-		inOrder(root.right);
+		PostOrder(root.left);
+		PostOrder(root.right);
+                System.out.print(root.data + " ");
 	}
 
 public void createBinaryTree() {
