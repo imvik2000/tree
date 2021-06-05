@@ -45,6 +45,6 @@ public void createBinaryTree() {
 	public static void main(String[] args) {
 		BinaryTree bt = new BinaryTree();
 		bt.createBinaryTree();
-		bt.inorder(bt.root);
+		bt.inOrder(bt.root);
 	}
 }
